@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #E966A0;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffddcc;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    font-style: italic;
+    color: rgb(132, 14, 91);
+}
+
+.isi {
+    font-family: 'comic sans-ms';
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    
+}
+
+a.tbl-biru {
+    background: pink;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 9px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #CD6688;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #CD6688;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: pink;
+    text-decoration: none;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+ 
+.image{
+    position: absolute;
+    top: 550px;
+    left: 20%;
+}
+
+.sponsor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    top: 30px;
+}
+
+.sponsor-logo{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.sponsor-logo img{
+    width: 150px;
+
+}
